@@ -1,28 +1,23 @@
 # Google Snake - Quick Play 🐍
 
-A lightweight Chrome extension that gives you quick access to **Google Snake** directly from your browser.
+A lightweight Chrome extension that gives you quick access to Google Snake directly from your browser.
 
-🎮 **Play online:** https://www.googlesnake.com/
+[🎮 Play Google Snake online](https://www.googlesnake.com/)
 
 ## Features
 
-- One-click access to Google Snake
-- Play directly inside the extension popup
-- Full-size game button for a larger browser view
-- Lightweight Manifest V3 extension
-- No special browser permissions
+- 🐍 One-click access to Google Snake
+- ▶️ Play directly inside the extension popup
+- ⛶ Open the game in a larger browser view
+- ⚡ Lightweight Manifest V3 extension
+- 🔒 No special browser permissions
 
 ## Screenshots
 
-Add screenshots of the extension here before publishing to the Chrome Web Store.
 
-Suggested files:
-
-```text
 screenshots/
 ├── popup.png
-├── game.png
-└── fullscreen.png
+└── game.png
 ```
 
 ## Installation for development
