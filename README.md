@@ -14,11 +14,13 @@ A lightweight Chrome extension that gives you quick access to Google Snake direc
 
 ## Screenshots
 
+### Extension popup
 
-screenshots/
-├── popup.png
-└── game.png
-```
+![Google Snake Chrome extension](screenshots/popup.png)
+
+### Google Snake game
+
+![Google Snake game](screenshots/game.png)
 
 ## Installation for development
 
