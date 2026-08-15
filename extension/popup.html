@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Google Snake</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<main id="home">
+  <div class="brand"><div class="logo">🐍</div><div><h1>Google Snake</h1><small>Quick Play</small></div></div>
+  <div class="hero">
+    <h2>Ready to play?</h2>
+    <p>Start Google Snake directly from Chrome.</p>
+    <button id="play">▶ Play Google Snake</button>
+  </div>
+  <div class="footer">
+    <a href="https://www.googlesnake.com/" target="_blank" rel="noopener">Visit googlesnake.com ↗</a>
+    <span>No special permissions</span>
+  </div>
+</main>
+
+<section id="game" style="display:none;">
+  <header>
+    <button id="back" aria-label="Back">←</button>
+    <strong>Google Snake</strong><button id="fullscreen" aria-label="Open full size">⛶</button>
+    <a href="https://www.googlesnake.com/" target="_blank" rel="noopener">↗</a>
+  </header>
+  <iframe id="gameFrame" title="Google Snake game" src="about:blank" allow="fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</section>
+<script src="popup.js"></script>
+</body>
+</html>
